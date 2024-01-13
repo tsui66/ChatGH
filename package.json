@@ -1,0 +1,30 @@
+{
+  "name": "Routine",
+  "version": "1.0.0",
+  "description": "An opinionated collection of apps and packages for your Next.js monorepo project.",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prettier": "npx prettier --write \"**/*.{ts,tsx}\"",
+    "prepare": "husky install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript-config": "workspace:*",
+    "@turbo/gen": "^1.11.3",
+    "eslint": "^8.56.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "turbo": "^1.11.3"
+  },
+  "engines": {
+    "pnpm": ">=8"
+  },
+  "packageManager": "pnpm@8.6.10"
+}
