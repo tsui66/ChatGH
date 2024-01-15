@@ -9,7 +9,7 @@ const nextConfig = {
       },
       {
         source: "/deploy",
-        destination: "https://vercel.com/templates/next.js/ChatGH",
+        destination: "https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftsui66%2FChatGH&env=OPENAI_API_KEY",
         permanent: true,
       },
     ];
